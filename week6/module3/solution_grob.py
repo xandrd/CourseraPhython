@@ -43,4 +43,3 @@ res.sort(key=lambda x: x[0])
 # print(res)
 for i in range(nCity):
     print(res[i][1], end=' ')
-

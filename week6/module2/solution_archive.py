@@ -5,7 +5,6 @@ else:
     A = []
     while len(A) < N:
         A.append(int(input()))
-
     A.sort()
     ss = 0
     res = 0
