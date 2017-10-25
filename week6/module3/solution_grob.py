@@ -29,7 +29,7 @@ for i in range(nCity):
     j = currentBomb
     dist = abs(lCity[i][1] - lBomb[j][1])
     currentRecord = (lCity[i][0], lBomb[j][0])
-    while j < nBomb and abs(lCity[i][1] - lBomb[j+1][1]) < dist:
+    while j < nBomb-1 and abs(lCity[i][1] - lBomb[j+1][1]) < dist:
         dist = abs(lCity[i][1] - lBomb[j+1][1])
         currentRecord = (lCity[i][0], lBomb[j+1][0])
         j += 1
